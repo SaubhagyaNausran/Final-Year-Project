@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:src="@drawable/splash_screen_image"
+        android:src="@drawable/resumeanalyzerlogo"
         android:transitionName="logo_image"
 
         app:layout_constraintBottom_toBottomOf="parent"

@@ -10,12 +10,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.database.DataSnapshot;
 
 public class Dashboard extends AppCompatActivity {
+
+    private Toolbar toolbar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +29,7 @@ public class Dashboard extends AppCompatActivity {
 
         // Initialize the BottomNavigationView
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
 
@@ -42,16 +47,12 @@ public class Dashboard extends AppCompatActivity {
                 case R.id.home:
                     replaceFragment(new HomeFragment());
                     return true;
-                case R.id.cropPrediction:
-                    replaceFragment(new CropPredictionFragment());
+
+                case R.id.jobs:
+                    replaceFragment(new JobsFragment());
                     return true;
-                case R.id.weather:
-                    replaceFragment(new WeatherFragment());
-                    return true;
-                case R.id.mandi:
-                    replaceFragment(new MandiFragment());
-                    return true;
-                case R.id.more:
+
+                case R.id.help:
                     replaceFragment(new DiseasePredictionFragment());
                     return true;
             }
@@ -92,4 +93,18 @@ public class Dashboard extends AppCompatActivity {
         fragmentTransaction.replace(R.id.frame_layout, fragment);
         fragmentTransaction.commit();
     }
+
+    public void setToolbarVisibility(boolean isVisible) {
+        if (toolbar != null) {
+            if (isVisible) {
+                toolbar.setVisibility(View.VISIBLE);
+            } else {
+                toolbar.setVisibility(View.GONE);
+            }
+        }
+    }
+
+
+
+
 }

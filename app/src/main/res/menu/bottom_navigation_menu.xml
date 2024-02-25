@@ -5,23 +5,13 @@
         android:id="@+id/home"
         android:tint="@android:color/black"/>
 
-    <item android:title="Crop Prediction"
-        android:icon="@drawable/crop"
-        android:id="@+id/cropPrediction"
-        android:tint="@android:color/black"/>
 
-    <item android:title="Weather"
-        android:icon="@drawable/weather"
-        android:id="@+id/weather"/>
+    <item android:title="Jobs"
+        android:icon="@drawable/ic_job"
+        android:id="@+id/jobs"/>
 
-    <item android:title="Disease Prediction"
-        android:icon="@drawable/disease"
-        android:id="@+id/more"/>
-
-    <item android:title="Mandi"
-        android:icon="@drawable/mandi"
-        android:id="@+id/mandi" />
-
-
+    <item android:title="Help"
+        android:icon="@drawable/ic_help"
+        android:id="@+id/help"/>
 
 </menu>

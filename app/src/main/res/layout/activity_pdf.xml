@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PdfActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/BannerRL"
+            android:background="@drawable/blue_gradient_background"
+            >
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/bannerIV"
+                android:src="@drawable/bannerresume"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-40dp"
+            android:background="@color/white"
+            android:elevation="15dp"
+            >
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/scoreDesTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Revolutionize your hiring process or elevate your career prospects with our 'Score My Resume'. Designed for both individual applicants and administrative professionals, this tool offers a comprehensive evaluation of resume. Get a  resume score in just 30 seconds and discover practical tips to enhance your resume, whether you're aiming to improve your own job application or seeking the best candidates for your organization. Utilize our 'Score My Resume' to make informed decisions and boost oppurtinities"
+                android:textSize="15sp"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="textStart"
+                android:justificationMode="inter_word" />
+
+
+
+            <TextView
+                android:id="@+id/scoreText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Resume Score"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:layout_marginTop="5dp" />
+
+
+        <TextView
+            android:id="@+id/scoreTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00.00"
+           android:layout_centerHorizontal="true"
+            android:textSize="50sp"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/myButton"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Score"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/scoreDesTV"
+            android:textColor="@color/white"
+           />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -58,99 +58,99 @@
             android:padding="20dp"
             android:layout_marginTop="-100dp">
 
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="0dp"
-                android:layout_height="125dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/green"
-                app:cardElevation="10dp">
+<!--            <com.google.android.material.card.MaterialCardView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="125dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="10dp"-->
+<!--                app:cardBackgroundColor="@color/green"-->
+<!--                app:cardElevation="10dp">-->
 
 
-               <RelativeLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="match_parent"
-                   android:padding="5dp">
+<!--               <RelativeLayout-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_height="match_parent"-->
+<!--                   android:padding="5dp">-->
 
-                   <ImageView
-                       android:layout_width="30dp"
-                       android:layout_height="30dp"
-                       android:layout_centerHorizontal="true"/>
+<!--                   <ImageView-->
+<!--                       android:layout_width="30dp"-->
+<!--                       android:layout_height="30dp"-->
+<!--                       android:layout_centerHorizontal="true"/>-->
 
-                   <TextView
+<!--                   <TextView-->
 
-                       android:id="@+id/bookingsCountTV"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="2"
-                       android:includeFontPadding="false"
-                       android:fontFamily="@font/bungee"
-                       android:textSize="25sp"
-                       android:layout_centerInParent="true"
-                       />
+<!--                       android:id="@+id/bookingsCountTV"-->
+<!--                       android:layout_width="wrap_content"-->
+<!--                       android:layout_height="wrap_content"-->
+<!--                       android:text="2"-->
+<!--                       android:includeFontPadding="false"-->
+<!--                       android:fontFamily="@font/bungee"-->
+<!--                       android:textSize="25sp"-->
+<!--                       android:layout_centerInParent="true"-->
+<!--                       />-->
 
-                   <TextView
-                       android:id="@+id/bookingLabelTV"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Bookings"
-                       android:includeFontPadding="false"
-                       android:fontFamily="@font/antic"
-                       android:textSize="20sp"
-                       android:layout_below="@+id/bookingsCountTV"
-                       android:layout_centerHorizontal="true"
-                       />
-
-
-               </RelativeLayout>
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="0dp"
-                android:layout_height="125dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/green"
-                app:cardElevation="10dp">
+<!--                   <TextView-->
+<!--                       android:id="@+id/bookingLabelTV"-->
+<!--                       android:layout_width="wrap_content"-->
+<!--                       android:layout_height="wrap_content"-->
+<!--                       android:text="Bookings"-->
+<!--                       android:includeFontPadding="false"-->
+<!--                       android:fontFamily="@font/antic"-->
+<!--                       android:textSize="20sp"-->
+<!--                       android:layout_below="@+id/bookingsCountTV"-->
+<!--                       android:layout_centerHorizontal="true"-->
+<!--                       />-->
 
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:padding="5dp">
+<!--               </RelativeLayout>-->
+<!--            </com.google.android.material.card.MaterialCardView>-->
 
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_centerHorizontal="true"/>
-
-                    <TextView
-
-                        android:id="@+id/lendingCountTV"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2"
-                        android:includeFontPadding="false"
-                        android:fontFamily="@font/bungee"
-                        android:textSize="25sp"
-                        android:layout_centerInParent="true"
-                        />
-
-                    <TextView
-                        android:id="@+id/lendLabelTV"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Lend"
-                        android:includeFontPadding="false"
-                        android:fontFamily="@font/antic"
-                        android:textSize="20sp"
-                        android:layout_below="@+id/lendingCountTV"
-                        android:layout_centerHorizontal="true"
-                        />
+<!--            <com.google.android.material.card.MaterialCardView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="125dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="10dp"-->
+<!--                app:cardBackgroundColor="@color/green"-->
+<!--                app:cardElevation="10dp">-->
 
 
-                </RelativeLayout>
-            </com.google.android.material.card.MaterialCardView>
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:padding="5dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="30dp"-->
+<!--                        android:layout_height="30dp"-->
+<!--                        android:layout_centerHorizontal="true"/>-->
+
+<!--                    <TextView-->
+
+<!--                        android:id="@+id/lendingCountTV"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="2"-->
+<!--                        android:includeFontPadding="false"-->
+<!--                        android:fontFamily="@font/bungee"-->
+<!--                        android:textSize="25sp"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/lendLabelTV"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Lend"-->
+<!--                        android:includeFontPadding="false"-->
+<!--                        android:fontFamily="@font/antic"-->
+<!--                        android:textSize="20sp"-->
+<!--                        android:layout_below="@+id/lendingCountTV"-->
+<!--                        android:layout_centerHorizontal="true"-->
+<!--                        />-->
+
+
+<!--                </RelativeLayout>-->
+<!--            </com.google.android.material.card.MaterialCardView>-->
         </LinearLayout>
 
         <LinearLayout
